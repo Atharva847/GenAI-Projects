@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+plotly
+matplotlib
+seaborn
+scipy
+scikit-learn
+langchain
+langchain-core
+langchain-community
+langchain-classic
+langchain-openai
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
