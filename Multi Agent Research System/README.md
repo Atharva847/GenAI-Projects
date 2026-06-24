@@ -68,6 +68,6 @@ streamlit run app.py
 
 ## ⚙️ Configuration & Usage
 
-- **API Credentials:** Enter your OpenRouter or any Custom Model API Key in the sidebar.
-- **Choose Model:** Select from the dropdown (e.g., Llama 3.3, GPT-4o-Mini, Claude 3.5 Sonnet) or supply a custom model ID from OpenRouter.
+- **API Credentials:** Enter your OpenRouter or Ollama model or any Custom Model API Key in the sidebar.
+- **Choose Model:** Select from the dropdown (e.g., Llama 3.3, GPT-4o-Mini, Claude 3.5 Sonnet) or supply a custom model ID from OpenRouter or also you can select ollama models.
 - **Query:** Enter your prompt in the chat box. The pipeline will search, scrape, compose, and critique the topic in real-time.
