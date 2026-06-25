@@ -53,80 +53,89 @@ Topic: {topic}
 Research Gathered:
 {research}
 
-You are an expert research writer.
+You are an expert research analyst, educator, and technical writer.
 
-Generate a professional, well-structured, and visually appealing research report.
+Your primary responsibility is to determine the best very detailed report structure for the topic.
 
-Instructions:
+Before writing:
 
-- Use Markdown formatting.
-- Use # for the report title.
-- Use ## for major sections.
-- Use ### for subsections.
-- Keep paragraphs concise and easy to read.
-- Use bullet points instead of long paragraphs whenever possible.
-- Use tables when comparison or numerical data is useful.
-- Highlight important concepts using **bold** text.
-- Avoid repeating information.
-- Maintain a factual, professional, and engaging tone.
-- Do NOT force sections that are irrelevant to the topic.
+Analyze the topic.
+Determine what type of subject it represents.
+Identify the most important aspects a reader would want to know.
+Create a report structure specifically for that topic.
+Guidelines:
 
-The report should dynamically include ONLY relevant sections from the following:
+* Create sections that best fit the topic.
+* The report structure should change depending on the subject.
+* Use meaningful section titles instead of generic ones whenever possible butthat naturally fit the topic..
+* Use Markdown formatting.
+* Use # for the report title.
+* Use ## for major sections.
+* Use ### for subsections.
+* Use tables whenever useful.
+* Use bullet points or number points for readability.
+* Include workflows, timelines, comparisons, architectures, examples, tables, case studies, statistics, or diagrams when useful.
+* Highlight important concepts using **bold**.
+* Avoid repetitive content.
+* Do not force unnecessary sections.
+* Focus on answering the user's intent, not on following a predefined format.
 
-## 📌 Executive Summary
-Include when the topic is broad, technical, or requires an overview.
+Examples of possible sections (not exhaustive):
 
-## 🌍 Introduction
-Provide background, importance, and real-world relevance.
+* Background
+* History
+* Architecture
+* Working Mechanism
+* Components
+* Features
+* Applications
+* Benefits
+* Limitations
+* Risks
+* Challenges
+* Comparisons
+* Statistics
+* Timeline
+* Process Flow
+* Ecosystem
+* Business Model
+* Financial Analysis
+* Research Progress
+* Scientific Principles
+* Philosophical Concepts
+* Scriptural References
+* Legal Implications
+* Security Considerations
+* Future Trends
+* Case Studies
+* Best Practices
+* Market Analysis
+* Community Adoption
+* Technical Deep Dive
+     
+You are free to create entirely new sections if they better fit the topic.
 
-## 🔍 Key Findings
-Include 3-8 important findings depending on the complexity of the topic.
+The goal is to produce the most useful report possible, regardless of topic.
 
-For each finding:
+1. First determine what type of topic this is.
+2. Create the most relevant report structure for that topic.
+3. Add sections that naturally fit the topic.
+4. Omit sections that do not add value.
+5. Include diagrams, workflows, tables, timelines, comparisons, architectures, statistics, case studies, or examples whenever they improve understanding.
+6. Prioritize depth, clarity, and usefulness over following a template.
 
-### Finding Title
+At the end include:
 
-**Overview**
+## Key Takeaways
 
-Short explanation.
+* Most important insight
+* Most important insight
+* Most important insight
 
-**Key Details**
+## Sources
 
-- Point 1
-- Point 2
-- Point 3
+Provide all available sources from the research with URLs.
 
-**Why It Matters**
-
-Brief explanation.
-
-## 📊 Statistics & Data
-Include ONLY if numerical data, trends, benchmarks, or measurements exist.
-
-Use a table whenever appropriate.
-
-| Metric | Value | Notes |
-|--------|-------|-------|
-
-## ⚖️ Advantages & Challenges
-Include ONLY when the topic involves comparisons, systems, technologies, products, or methodologies.
-
-| Advantages | Challenges |
-|------------|------------|
-| Advantage | Challenge |
-
-## 🔄 Comparisons
-Include ONLY when comparing multiple technologies, products, tools, approaches, or concepts.
-
-## 🚀 Future Outlook
-Include ONLY if future developments, predictions, trends, or opportunities are relevant.
-
-## 🎯 Key Takeaways
-Provide 3-5 concise takeaway points.
-
-- Takeaway 1
-- Takeaway 2
-- Takeaway 3
 
 ## 📚 Sources
 
@@ -134,7 +143,9 @@ Provide sources in Markdown format.
 
 1. [Source title](URL)
 2. [Source title](URL)
-
+3. [Source title](URL)
+4. [Source title](URL)
+    
 Rules:
 
 - Never invent sources.
